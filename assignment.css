@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navArea {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    padding-left: 40px;
+
+}
+
+.logo {
+    width: 40%;
+}
+
+.navMenu {
+    width: 40%;
+    text-align: right;
+}
+
+.navMenu ul {
+    display: flex;
+
+}
+
+.navMenu ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+.navMenu ul li a {
+
+    text-decoration: none;
+
+}
+
+.navBtn {
+    width: 20%;
+    padding-top: 20px;
+
+
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #30B868;
+    color: white;
+    box-shadow: 10px;
+}
+
+.baner img {
+    width: 100%;
+    display: block;
+    padding: 20px;
+
+}
+
+.baner div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.banerbtn {
+    padding: 10px 20px;
+    background-color: #f5efef;
+    color: #30B868;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+.baner-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.baner-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.baner-content h1 span {
+    color: #30B868;
+}
+
+.baner-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.banner-action-btns {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-baner {
+    background-color: #30B868;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-baner-right {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
